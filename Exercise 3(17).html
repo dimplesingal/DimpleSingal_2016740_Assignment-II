@@ -1,0 +1,75 @@
+<!--Make a layout template that contains a header and two paragraphs. Use float to line up the 
+two paragraphs as columns side by side. Give the header and two paragraphs a border 
+and/or a background color so you can see where they are.-->
+<html>
+ <head>
+ <title> Exercise 3(17) </title>
+ <style>
+    body{
+        background:linear-gradient(rgba(35, 35, 161, 0.856),rgba(21, 0, 4, 0.978));
+        font-family:'arial';
+    }
+    h1{
+        color:rgb(247, 247, 247);
+        font-weight: bolder;
+        font-size: 40px;
+    
+        background-color: rgba(59, 12, 103, 0.959);
+        padding: 30px;
+        text-align:center;
+        border-style:solid;
+        border-width:5px;
+	    border-radius:10px;  
+    }
+    .para1{
+        background-color: rgba(255, 246, 127, 0.979);
+        float:left;
+        color:rgb(2, 23, 9);
+        text-align: justify;
+        font-size:20px;
+        border-style:dotted;
+        border-color:rgb(0, 0, 0);
+        border-width:10px;
+	    border-radius:5px;
+        box-sizing: border-box;
+        box-shadow:3px 3px 3px 3px rgb(1, 2, 1);
+        padding: 10px 30px 10px 30px;
+        margin: 5px;
+        width:50%;
+        height:50%
+    }
+    .para2{
+        background-color: rgba(255, 246, 127, 0.979);
+        float:right;
+        left:50%;
+        color:rgb(31, 5, 58);
+        text-align: center;
+        font-size:20px;
+        border-color: rgb(0, 0, 0);
+        border-style: dotted;
+        border-width:10px;
+	    border-radius:3px;
+        box-sizing:border-box;
+        box-shadow:3px 3px 3px 3px rgb(4, 0, 8);
+        padding: 10px 30px 10px 30px;
+        margin: 5px;
+        width:45%;
+        height:50%;
+    }
+    
+ </style>
+ </head>
+ <body>
+    <p>
+        <h1>Java v/s JavaScript</h1>
+        <div class="para1">
+            Java launched with a “Write once, run anywhere” promise. Since its launch, it quickly became very popular for creating client and server-side applications. It has a similar syntax to C and C++. Still, it is easier to understand and has fewer low-level features because that functionality is handled automatically by the compiler and JVM.
+        </div>
+    </p>
+    <p>
+        <div class="para2">
+            JavaScript has critical features that led to its widespread adoption. It runs live in the browser without having to compile beforehand, a process called just-in-time compilation. Every major web browser uses the language. It is responsible for many of the interactions you see on websites, like fetching new data without reloading the page, animations, checking forms for errors, chatting, posting comments, and much more.
+        </div>
+    </p>
+</body>
+ </html>

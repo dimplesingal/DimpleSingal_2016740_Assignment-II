@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Exercise 2(9)</title>
+	</head>
+	<body>
+		<h1>FEEDBACK PAGE FOR HP LAPTOPS</h1>
+			<form method="get" action="Submit.html" autocomplete="on" >
+				<label>Enter your hp laptop model no.:</label>
+				<input type=text min=1 max=100 step=5 name="text" value="Enter your model number" /><br>
+				<label>Enter your email ID:</label>
+				<input type=email name="email" /><br>
+					<datalist id="8gb">
+						<option>HP Pavilion 15-ec2004AX</option>
+						<option>HP 14s-dy2507TU (6N024PA)</option>
+						<option>HP 15s-fq2629TU (546K7PA) </option>
+						<option>HP 15s-fq5111TU (6P129PA)</option>
+					</datalist><br>
+						<label> Can you suggest me some laptops with 8gb ram? </label>
+						<input type=text id="8gb" list="8gb" /><br>
+						<label>Enter the range for your new laptop:</label>
+						<input type=range min=60000 max=2000000 step=1000 name="range" /><br>
+						<label> Can i track my shipment? </label>
+						<input type=radio name=yes value="y"/>
+						<label> Yes </label>
+						<input type=radio name=yes value="n"/>
+						<label> No </label><br>							
+						<label>Add your old laptop purchase details:</label>
+						<input type=file name="file" value="uploaded" /><br>
+						<label>Enter the colour for your new laptop:</label>
+						<input type=color name="color" /><br>
+						<label> Which mode of payment is suitable for you: </label>
+						<input type=checkbox name=payment value="d" />
+						<label> Cash on delivery </label>
+						<input type=checkbox name=payment value="r" />
+						<label> Online transaction </label><br>
+						<label> Give your feedback regarding your old laptop: </label>
+						<textarea row=12 cols=30 name=comments placeholder=comments></textarea></td><br>
+						<br><input type=reset />
+						<input type=Submit />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+
+h1{
+	position:relative;
+	font-style:italic;
+	font-weight:bolder;
+	color:rgb(236, 236, 236);
+	text-align:center;
+	text-decoration: underline;
+	padding:2px;
+}
+.first{
+	display:flex;
+	
+}
+.quote1{
+	border: solid 5px blue;
+	clear:both;
+	height:500px;
+	width:500px;
+	position:relative;
+	margin:100px;
+	left:60px;
+	outline:solid 2px rgb(236, 236, 236);
+}
+.quote2{
+	border: solid 5px rgb(44, 42, 165);
+	clear:both;
+	height:500px;
+	width:500px;
+	position:relative;
+	margin:100px;
+	left:70px;
+	outline:solid 2px rgb(233, 233, 233);
+}
+img{
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	z-index: -1;
+	margin: 0px;
+	clear:both;
+}

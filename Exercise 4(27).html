@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Exercise 4(2)</title>
+        <style>
+            #clock{
+                position:absolute;
+                left:40%;
+                top:30%;
+                height:200px;
+                width:300px;
+                text-align:center;
+                background-color:white;
+                color: black;
+                display:flex;
+                font-size: 70px;
+                align-items:center;
+                
+                
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="clock">
+
+        </div>
+        <script>
+            function clock(){
+                d=new Date();
+                hr=d.getHours();
+                min=d.getMinutes();
+                ss=d.getSeconds();
+                cTime=hr+":"+min+":"+ss;
+                x=document.getElementById("clock");
+                x.innerHTML=cTime;
+            }
+            setInterval(clock,1000);
+            </script>
+    </body>
+</html>

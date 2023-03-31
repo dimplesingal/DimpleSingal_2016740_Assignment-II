@@ -1,0 +1,29 @@
+body{
+	background-color:rgba(198,24,30,0.5);
+	background-image: radial-gradient(rgba(233, 230, 18, 0.3),rgba(173, 124, 150, 0.5),rgba(3, 38, 44, 0.5)), url("images/7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+h1{
+	font-weight: bolder;
+	
+	color: rgb(15, 15, 15);
+}
+p{
+	font-size: 20px;
+	color: rgb(36, 25, 190);
+	line-height: 50px;
+}
+span{
+	background-color: rgb(255, 55, 0);
+}
+h2{
+	line-height: 20px;
+	color: rgb(240, 239, 239);
+}
+.p2{
+	font-size: 25px;
+	color: rgb(225, 225, 230);
+	line-height: 50px;
+}

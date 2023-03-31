@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 4(23)</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .card{
+                width: 33%;
+                box-shadow: 2px 2px 4px black;
+                padding: 10px;
+            }
+            .card > img {
+                width: 100%;
+            }
+            .desc{
+                padding: 20px;
+                color: brown;
+            }
+            .container{
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;">
+        <script>
+            for(i=0;i<3;i++){
+                images = ["monkey1.jpg" , "monkey2.jpg" , "monkey3.jpg"]
+                titles = ["See no evil – Be Objective" , "Hear no evil – Be Authentic" , "Speak no evil – Be mindful"]
+                card = "<div class = 'card'>" + "<img src='images/"+images[i]+"' />" + "<div class = 'desc' >"
+                    + "<h1>"+ titles[i] +"</h1>" + "<p>The three wise monkeys proverbially depict that if we do not hear, see or talk evil, we ourselves shall be spared of all that is malicious and sinful. Gandhiji was able to focus on his work with persistence and focus as he stayed away from sinful thoughts and actions..</p>" +
+                     " </div>" + " </div>"
+                document.write(card);
+            }
+        </script>
+        </div>
+    </body>
+</html>
